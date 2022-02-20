@@ -43,7 +43,7 @@ class Game {
       p1Score = 0;
       document.getElementById("aScore1").innerText = p1Score;
       if (p1FScore >= 100) {
-        alert("Le joueur " + player + " a gagné");
+        alert("Le joueur 1 a gagné");
       }
       cValues.Player2();
     } else if (player === 2 && p2FScore < 100) {
@@ -53,7 +53,7 @@ class Game {
       p2Score = 0;
       document.getElementById("aScore2").innerText = p2Score;
       if (p2FScore >= 100) {
-        alert("Le joueur " + player + " a gagné");
+        alert("Le joueur 2 a gagné");
       }
       cValues.Player1();
     } else {
