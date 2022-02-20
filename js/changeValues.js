@@ -7,15 +7,11 @@ class ChangeValues {
   }
 
   Player1() {
-    document.getElementById("p2").classList.remove("greenShadow");
-    document.getElementById("p1").classList.remove("redShadow");
-    document.getElementById("p1").classList.add("greenShadow");
-    document.getElementById("p2").classList.add("redShadow");
+    document.getElementById("p1").className = "col-4 text-center greenShadow";
+    document.getElementById("p2").className = "col-4 text-center redShadow";
   }
   Player2() {
-    document.getElementById("p1").classList.remove("greenShadow");
-    document.getElementById("p2").classList.remove("redShadow");
-    document.getElementById("p2").classList.add("greenShadow");
-    document.getElementById("p1").classList.add("redShadow");
+    document.getElementById("p2").className = "col-4 text-center greenShadow";
+    document.getElementById("p1").className = "col-4 text-center redShadow";
   }
 }

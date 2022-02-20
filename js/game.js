@@ -40,22 +40,22 @@ class Game {
       p1FScore += p1Score;
       document.getElementById("score1").innerText = p1FScore;
       player = 2;
-      Player2();
       p1Score = 0;
       document.getElementById("aScore1").innerText = p1Score;
       if (p1FScore >= 100) {
         alert("Le jouer " + player + " a gagné");
       }
+      cValues.Player1();
     } else if (player === 2 && p2FScore < 100) {
       p2FScore += p2Score;
       document.getElementById("score2").innerText = p2FScore;
       player = 1;
-      Player1();
       p2Score = 0;
       document.getElementById("aScore2").innerText = p2Score;
       if (p2FScore >= 100) {
         alert("Le jouer " + player + " a gagné");
       }
+      cValues.Player2();
     } else {
       alert("Une error est servenu");
     }

@@ -11,10 +11,14 @@ class Dice {
         document.getElementById("diceImg").src = "/img des/1.png";
         if (player === 1) {
           player = 2;
+          p1Score = 0;
+          document.getElementById("aScore1").innerText = p1Score;
           cValues.Player2();
         } else {
           player = 1;
-          cValues.Player2();
+          p2Score = 0;
+          document.getElementById("aScore2").innerText = p1Score;
+          cValues.Player1();
         }
         break;
 
