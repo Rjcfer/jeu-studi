@@ -11,45 +11,50 @@
   <body class="container-fluid">
     <div class="row pb-4">
       <div class="col-12 text-center pt-3">
-        <button class="btn btn-primary">+ Nouvelle partie</button>
+        <button  id="newGame" class=" btn btn-primary ">+ Nouvelle partie</button>
       </div>
     </div>
     <div class="row pb-4 justify-content-between">
-      <div class="col-4 text-center">
-        <h3 class="h1">Joueur 1</h3>
-        <p class="display-1 score1">0</p>
+      <div id="p1" class="col-4 text-center greenShadow">
+        <h3  class="h1 player1 ">Joueur 1</h3>
+        <p id="score1" class="display-1 ">0</p>
       </div>
 
-      <div class="col-4 text-center">
-        <h3 class="h1">Joueur 2</h3>
-        <p class="display-1 score2">0</p>
+      <div id="p2" class="col-4 text-center redShadow">
+        <h3 class="h1 player2">Joueur 2</h3>
+        <p id="score2" class="display-1 ">0</p>
       </div>
     </div>
-    <div class="smdice row pb-4">
+    <div class=" row pb-4">
       <div class="col-12 text-center">
-        <img class="dice" src="/img des/1.png" />
+        <img id="diceImg" class=" smdice" src="/img des/1.png" />
       </div>
     </div>
     <div class="row pb-4 fixed-bottom">
       <div class="col-4 text-center ">
-        <p class="display-5">Score actuel</p>
+        <p  class="display-5">Score en cours </p>
       </div>
       <div class="col-4 text-center mt-4">
-        <button class="btn btn-primary">&#8635 Lancer le dé</button>
+        <button id="dice" class="btn btn-primary">&#8635 Lancer le dé</button>
       </div>
       <div class="col-4 text-center">
-        <p class="display-5">Score actuel</p>
+        <p class="display-5">Score en cours</p>
       </div>
           <div class="row pb-4">
       <div class="col-4 text-center ">
-        <p class="score1 display-3">0</p>
+        <p  id='aScore1' class="score1 display-3 startScore">0</p>
       </div>
       <div class="col-4 text-center mt-4"> 
-        <button class="btn btn-primary">Garder ce resultat</button>
+        <button id="saveResults" class="btn btn-primary ">Garder ce resultat</button>
       </div>
       <div class="col-4 text-center">
-        <p class="score2 display-3">0</p>
+        <p  id='aScore2' class="score2 display-3 startScore">0</p>
       </div>
     </div>
   </body>
+  <script src="/js/changeValues.js"></script>
+  <script src="/js/dice.js"></script>
+  <script src="/js/game.js"></script>
+  <script src="/js/mainscript.js"></script>
+  
 </html>

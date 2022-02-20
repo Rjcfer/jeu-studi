@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1030px) {
+  .smdice {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (min-width: 1030px) {
+  .smdice {
+    width: 200px;
+    height: 200px;
+  }
+}
+.greenShadow {
+  background-color: green;
+}
+.redShadow {
+  background-color: red;
+}
