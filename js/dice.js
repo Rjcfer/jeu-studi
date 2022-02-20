@@ -8,7 +8,7 @@ class Dice {
     let cValues = new ChangeValues();
     switch (dice) {
       case 1:
-        document.getElementById("diceImg").src = "/img des/1.png";
+        document.getElementById("diceImg").src = "img des/1.png";
         if (player === 1) {
           player = 2;
           p1Score = 0;
@@ -23,23 +23,23 @@ class Dice {
         break;
 
       case 2:
-        document.getElementById("diceImg").src = "/img des/2.png";
+        document.getElementById("diceImg").src = "img des/2.png";
         break;
 
       case 3:
-        document.getElementById("diceImg").src = "/img des/3.png";
+        document.getElementById("diceImg").src = "img des/3.png";
         break;
 
       case 4:
-        document.getElementById("diceImg").src = "/img des/4.png";
+        document.getElementById("diceImg").src = "img des/4.png";
         break;
 
       case 5:
-        document.getElementById("diceImg").src = "/img des/5.png";
+        document.getElementById("diceImg").src = "img des/5.png";
         break;
 
       case 6:
-        document.getElementById("diceImg").src = "/img des/6.png";
+        document.getElementById("diceImg").src = "img des/6.png";
         break;
     }
     return dice;
