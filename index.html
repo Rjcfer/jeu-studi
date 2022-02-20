@@ -1,10 +1,55 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.cs" />
-    <title>Document</title>
+    <title>Jeu de dés</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
   </head>
-  <body></body>
+  <body class="container-fluid">
+    <div class="row pb-4">
+      <div class="col-12 text-center pt-3">
+        <button class="btn btn-primary">+ Nouvelle partie</button>
+      </div>
+    </div>
+    <div class="row pb-4 justify-content-between">
+      <div class="col-4 text-center">
+        <h3 class="h1">Joueur 1</h3>
+        <p class="display-1 score1">0</p>
+      </div>
+
+      <div class="col-4 text-center">
+        <h3 class="h1">Joueur 2</h3>
+        <p class="display-1 score2">0</p>
+      </div>
+    </div>
+    <div class="smdice row pb-4">
+      <div class="col-12 text-center">
+        <img class="dice" src="/img des/1.png" />
+      </div>
+    </div>
+    <div class="row pb-4 fixed-bottom">
+      <div class="col-4 text-center ">
+        <p class="display-5">Score actuel</p>
+      </div>
+      <div class="col-4 text-center mt-4">
+        <button class="btn btn-primary">&#8635 Lancer le dé</button>
+      </div>
+      <div class="col-4 text-center">
+        <p class="display-5">Score actuel</p>
+      </div>
+          <div class="row pb-4">
+      <div class="col-4 text-center ">
+        <p class="score1 display-3">0</p>
+      </div>
+      <div class="col-4 text-center mt-4"> 
+        <button class="btn btn-primary">Garder ce resultat</button>
+      </div>
+      <div class="col-4 text-center">
+        <p class="score2 display-3">0</p>
+      </div>
+    </div>
+  </body>
 </html>
