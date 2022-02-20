@@ -4,6 +4,7 @@ let p2Score = 0;
 let p1FScore = 0;
 let p2FScore = 0;
 let player = 1;
+//declaration des variables du jeu
 
 document.getElementById("newGame").addEventListener("click", game.NewGame);
 

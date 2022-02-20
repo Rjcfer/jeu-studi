@@ -1,7 +1,7 @@
 class Dice {
   RandomDiceValue() {
     return Math.floor(Math.random() * 6) + 1;
-    //pour eviter de avoir une valeur de 0
+    //pour eviter d'avoir une valeur = 0
   }
 
   RandomDiceImg(dice) {
